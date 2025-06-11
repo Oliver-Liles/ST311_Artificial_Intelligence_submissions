@@ -17,8 +17,9 @@ Currently our intended architecture consists of a 2 stage CNN pipeline with the 
 1) Video Preprocessing: As the videos capturing each full swing and ball landing from the player are in MP4 format we will need to split these into the individual image frames.  
 2) CNN \#1 Hit Detection: The sequence of individual image frames is passed into the first CNN to identify the region of frames of which the ball is hit, making this a regression and not a classification task.  
 3) CNN \#2 Landing Prediction: After receiving the predicted hit frame(s) from CNN \#1, the second CNN takes the selected frame(s) as input and predicts where in the opponent’s section of the court the ball will land. This CNN is trained using labeled data that includes the ball’s To-Closest-Doubles-Sideline-Distance (meters) and To-Baseline-Distance (meters). These two values form a 2D coordinate that represents the landing location of the ball on the opponent’s side of the court.  
-4) Output: The final output of this workflow is the set of predicted coordinates.  
-     Figure 1: Workflow of the prediction pipeline
+4) Output: The final output of this workflow is the set of predicted coordinates.
+
+![pipeline](https://github.com/user-attachments/assets/e99ed6e7-fb48-4b95-94f6-f7c927c45e2b 'Figure 1: Workflow of the prediction pipeline')
 
 ## References
 
