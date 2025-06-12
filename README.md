@@ -11,7 +11,6 @@
 
 Course Information for ST310 can be found here:
 
-- [*Course Page*](https://www.lse.ac.uk/resources/calendar2024-2025/courseGuides/ST/2024_ST310.htm)
-- [*Course Notes*](https://ml4ds.com/)
-- [*ISLR Texbook*](https://www.statlearning.com/)
+- [*Course Page*](https://www.lse.ac.uk/resources/calendar2024-2025/courseGuides/ST/2024_ST311.htm)
+- Some learning (e.g., transformers) was done using the [*Hugging Face*](https://huggingface.co/learn) website.
 
