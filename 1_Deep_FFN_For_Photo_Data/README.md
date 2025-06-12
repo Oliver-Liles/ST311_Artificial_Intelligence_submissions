@@ -22,7 +22,7 @@ Conclusion: the performance are about the same. Why? The image data is simple: n
 
 More reading of ML papers (which you will do for the project) will improve your writing up of ML papers. 
 
-# To improve:
+### To improve:
 
 - Add grid or random search for model architecture
 - Write up in ML paper (e.g., NeurIPS format)
