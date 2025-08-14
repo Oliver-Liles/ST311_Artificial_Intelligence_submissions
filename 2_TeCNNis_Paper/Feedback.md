@@ -1,5 +1,7 @@
 # TeCNNis: Predicting Tennis Shot Landings in Real-Time
 
+**Result:** *75%* (1st Class Mark)
+
 The paper introduces a fast NN-based method to predict the landing point of a tennis ball using part of the video frames before the balls lands taken from a single camera angle. The use case requires more emphasis – reading it I am not sure how it benefits a user (but see my point in Evaluation).
 
 *Lit review*: 
